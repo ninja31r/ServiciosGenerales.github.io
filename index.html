@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Servicios Versátiles para el Hogar y Negocio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <link rel="icon" href="img/logo1.png" type="image/x-icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-bar p-0">
+        <div class="container-lg p-0">
+            <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/logo1.png" alt="Logo de Miguel Angel Mamani Zea" class="logo">
+
+                    <style>
+                        .logo {
+    width: 200px; /* Tamaño para PC */
+    position: absolute;
+    top: -25px;
+    left: 10px;
+    z-index: 1000; /* Ajusta este valor según sea necesario */
+}
+
+@media (max-width: 991px) {
+    .logo {
+        width: 120px; /* Tamaño para dispositivos móviles y tabletas */
+        top: -29px; /* Ajusta el margen superior para evitar superposición con la barra */
+        left: 20px; /* Cambiar el margen izquierdo si es necesario */
+    }
+}
+
+                    </style>
+
+                                    </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                        <a href="about.html" class="nav-item nav-link">Nosotros</a>
+                        <a href="service.html" class="nav-item nav-link">Servicios</a>
+                        <a href="contact.html" class="nav-item nav-link">Contacto</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <style>
+         .carousel-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .carousel-item img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el texto */
+    }
+    </style>
+    <div class="container-fluid p-0 mb-5">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#header-carousel" data-slide-to="1"></li>
+                <li data-target="#header-carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="img-fluid" src="img/pintor.webp" alt="Image">
+                    <div class="carousel-caption d-flex align-items-center justify-content-center">
+                        <div class="p-5" style="width: 100%; max-width: 900px; height: auto;">
+                            <h5 class="text-white text-uppercase mb-md-3">Cada color es unna Experiencia para nuestro equipo de trabajo.</h5>
+                            <h1 class="display-3 text-white mb-md-4">Lluvia de colores</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="img-fluid" src="img/elec.png" alt="Image">
+                    <div class="carousel-caption d-flex align-items-center justify-content-center">
+                        <div class="p-5" style="width: 100%; max-width: 900px;">
+                            <h5 class="text-white text-uppercase mb-md-3">En poco tiempo nuestros trabajadores solucionaran encombenientes electricos de tu Empresa u hogar. </h5>
+                            <h1 class="display-3 text-white mb-md-4">Servicio Electrico</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="img-fluid" src="img/tec.png" alt="Image">
+                    <div class="carousel-caption d-flex align-items-center justify-content-center">
+                        <div class="p-5" style="width: 100%; max-width: 900px;">
+                            <h5 class="text-white text-uppercase mb-md-3">En cada servicio que brindamos es una experiencia y aprendizaje para el equipo y mi persona. Gracias a la confianza de nuestra amplia cartera de clientes, es que seguimos aprendiendo para brindar un servicio de calidad.</h5>
+                            <h1 class="display-3 text-white mb-md-4">Mas que clientes, amigos!</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row align-items-center pb-1">
+                <div class="col-lg-5">
+                    <img class="img-thumbnail p-3" src="img/about.jpg" alt="">
+                </div>
+                <div class="col-lg-7 mt-5 mt-lg-0">
+                    <small class="bg-primary text-white text-uppercase font-weight-bold px-1">Mi Trayectoria</small>
+                    <h1 class="mt-2 mb-4">Compromiso, Experiencia y Pasión en Cada Proyecto</h1>
+                    <p class="mb-4">Saludos, soy Miguel Angel, Técnico Electricista con una sólida formación en el prestigioso SENATI. Con más de 25 años en el rubro, mi trayectoria va más allá de los cables y circuitos. Mi pasión por la excelencia y la dedicación me han llevado a ampliar mis habilidades, abarcando una amplia gama de servicios para brindarte soluciones integrales y seguras.</p>
+                    
+                    <p>Desde mis inicios, he perfeccionado mi conocimiento en electricidad, pero también me he aventurado en diferentes áreas para adaptarme a las necesidades cambiantes del mundo moderno.... </p>
+                
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center border mb-4 mb-lg-0 p-4" style="height: 120px;">
+                        <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
+                        <div class="d-flex flex-column">
+                            <h5 class="font-weight-bold">Nuestra Ubicacion</h5>
+                            <p class="m-0">Andres razuri #119, Arequipa, Peru</p>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center border mb-4 mb-lg-0 p-4" style="height: 120px;">
+                        <i class="fa fa-2x fa-envelope-open text-primary mr-3"></i>
+                        <div class="d-flex flex-column">
+                            <h5 class="font-weight-bold">Correo</h5>
+                            <p class="m-0">zeamiguel58@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center border mb-4 mb-lg-0 p-4" style="height: 120px;">
+                        <i class="fas fa-2x fa-phone-alt text-primary mr-3"></i>
+                        <div class="d-flex flex-column">
+                            <h5 class="font-weight-bold">Numero</h5>
+                            <p class="m-0">+51 991633963</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Services Start -->
+    <div class="container-fluid pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-5">
+                    <small class="bg-primary text-white text-uppercase font-weight-bold px-1">Lo que hago</small>
+                    <h1 class="mt-2 mb-3">Ofresco Servicios y Soluciones </h1>
+                    <h4 class="font-weight-normal text-muted mb-4">Cada servicio que asumimos es un compromiso y reto constante, para poder cumplir las expectativas del cliente.</h4>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-md-6 mb-5">
+                            <div class="d-flex">
+                                <i class="fas fa-3x fa-paint-roller text-primary mr-4"></i>
+                                <div class="d-flex flex-column">
+                                    <h4 class="font-weight-bold mb-3">Pintado</h4>
+                                    <p>La elección varía según el proyecto y objetivos. El contexto influye en resultados. Consideraciones individuales son clave.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-5">
+                            <div class="d-flex">
+                                <i class="fas fa-3x fa-bolt text-primary mr-4"></i>
+                                <div class="d-flex flex-column">
+                                    <h4 class="font-weight-bold mb-3">Pozo a tierra</h4>
+                                    <p>Ofrezco "Pozo a Tierra" para conectar equipos con la tierra, evitando descargas eléctricas y protegiendo a personas y dispositivos.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-5">
+                            <div class="d-flex">
+                                <i class="fas fa-3x fa-tools text-primary mr-4"></i>
+                                <div class="d-flex flex-column">
+                                    <h4 class="font-weight-bold mb-3">Instalaciones</h4>
+                                    <p>Las instalaciones son esenciales para operar de manera segura y eficiente en diversos entornos. Van desde el hogar hasta industrias y ciudades. Ejemplos:</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-5">
+                            <div class="d-flex">
+                                <i class="fas fa-3x fa-building text-primary mr-4"></i>
+                                <div class="d-flex flex-column">
+                                    <h4 class="font-weight-bold mb-3">Drywall</h4>
+                                    <p>El drywall es un sistema de construcción que emplea paneles de yeso laminado para erigir paredes y techos interiores de forma eficiente y precisa.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+    <!-- Features Start -->
+    <div class="container-fluid pt-5 pb-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-5">
+                    <small class="bg-primary text-white text-uppercase font-weight-bold px-1">Por que elegirnos</small>
+                    <h1 class="mt-2 mb-3">25 años de Experiencia</h1>
+                    <h4 class="font-weight-normal text-muted mb-4">Con un sólido historial de 25 años, nos enorgullecemos en ofrecer soluciones de calidad que superan expectativas. Nuestra dedicación se refleja en cada proyecto.</h4>
+                    <div class="list-inline mb-4">
+                        <p class="font-weight-semi-bold mb-2"><i class="fa fa-angle-right text-primary mr-2"></i>Experiencia Construida: Más de dos décadas de logros y éxitos, respaldando nuestro compromiso con la excelencia.</p>
+                        <p class="font-weight-semi-bold mb-2"><i class="fa fa-angle-right text-primary mr-2"></i>Enfoque en la Calidad: Cada paso que damos se centra en brindar soluciones de calidad que perduren en el tiempo.</p>
+                        <p class="font-weight-semi-bold mb-2"><i class="fa fa-angle-right text-primary mr-2"></i>Innovación Constante: Nuestra experiencia evoluciona junto con las últimas tendencias y tecnologías, asegurando soluciones vanguardistas.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-sm-6 pb-1">
+                            <div class="d-flex flex-column align-items-center border px-4 mb-4">
+                                <h2 class="display-3 text-primary mb-3" data-toggle="counter-up">25</h2>
+                                <h5 class="font-weight-bold mb-4">Años de Expereince</h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 pb-1">
+                            <div class="d-flex flex-column align-items-center border px-4 mb-4">
+                                <h2 class="display-3 text-primary mb-3" data-toggle="counter-up">5</h2>
+                                <h5 class="font-weight-bold mb-4">Expertos Calificados</h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 pb-1">
+                            <div class="d-flex flex-column align-items-center border px-4 mb-4">
+                                <h2 class="display-3 text-primary mb-3" data-toggle="counter-up">1050</h2>
+                                <h5 class="font-weight-bold mb-4">Clientes Felices</h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 pb-1">
+                            <div class="d-flex flex-column align-items-center border px-4 mb-4">
+                                <h2 class="display-3 text-primary mb-3" data-toggle="counter-up">2500</h2>
+                                <h5 class="font-weight-bold mb-4">Trabajos Completos</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+
+    
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-5">
+                    <small class="bg-primary text-white text-uppercase font-weight-bold px-1">Lo que dicen los clientes</small>
+                    <h1 class="mt-2 mb-3">Opiniones de los Clientes sobre Nuestros Servicios</h1>
+                    <h4 class="font-weight-normal text-muted mb-4">Las voces de nuestros clientes reflejan nuestra dedicación y calidad. Estamos comprometidos en superar expectativas y construir relaciones duraderas.</h4>
+                </div>
+                <div class="col-lg-8 mb-5">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-item">
+                            <div class="testimonial-text position-relative border mb-4" style="padding: 25px 30px;">
+                                "Un servicio excepcional que superó mis expectativas. ¡Altamente recomendado!"
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid rounded-circle" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;" alt="Image">
+                                <div class="pl-4">
+                                    <h6 class="font-weight-bold">Luis Rodríguez</h6>
+                                    <i class="text-muted">Empresario</i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="testimonial-text position-relative border mb-4" style="padding: 25px 30px;">
+                                "Increíble atención al detalle y resultados excepcionales. ¡Muy satisfecho!"
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid rounded-circle" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;" alt="Image">
+                                <div class="pl-4">
+                                    <h6 class="font-weight-bold">Carlos Gómez</h6>
+                                    <i class="text-muted">Arquitecto</i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-item">
+                            <div class="testimonial-text position-relative border mb-4" style="padding: 25px 30px;">
+                                "El servicio de primera clase y la atención personalizada me dejaron impresionado. ¡Definitivamente volveré a trabajar con ellos!"
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid rounded-circle" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;" alt="Image">
+                                <div class="pl-4">
+                                    <h6 class="font-weight-bold">Carlos Fernández</h6>
+                                    <i class="text-muted">Emprendedor</i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Cliente 4 -->
+                        <div class="testimonial-item">
+                            <div class="testimonial-text position-relative border mb-4" style="padding: 25px 30px;">
+                                "Su atención al detalle y enfoque en la calidad son excepcionales. ¡Los recomiendo altamente a cualquiera que busque resultados sobresalientes!"
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid rounded-circle" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;" alt="Image">
+                                <div class="pl-4">
+                                    <h6 class="font-weight-bold">Maria Martínez</h6>
+                                    <i class="text-muted">Empresaria</i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Cliente 5 -->
+                        <div class="testimonial-item">
+                            <div class="testimonial-text position-relative border mb-4" style="padding: 25px 30px;">
+                                "No podría estar más contento con los resultados. Su profesionalismo y compromiso son impresionantes. ¡Los recomiendo ampliamente!"
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid rounded-circle" src="img/testimonial-5.jpg" style="width: 80px; height: 80px;" alt="Image">
+                                <div class="pl-4">
+                                    <h6 class="font-weight-bold">Manuel Pérez</h6>
+                                    <i class="text-muted">Ing. Industrial</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-secondary text-white mt-5 pt-5 px-sm-3 px-md-5">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="m-0 mt-n2 text-white display-4"><span class="text-primary">M</span><span class="text-primary">G</h1>
+                </a>
+                <p>Impulsando tus ideas con creatividad y compromiso. Tu visión es nuestra misión.</p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="font-weight-bold text-primary mb-4">Enlaces Rápidos</h5>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Inicio</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Nosotros</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Servicios</a>
+                    <a class="text-white" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Contacto</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="font-weight-bold text-primary mb-4">Enlaces Populares</h5>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Home</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>About Us</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Services</a>
+                    <a class="text-white" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Contact Us</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="font-weight-bold text-primary mb-4">Contáctanos</h5>
+                <p>Convierte tus proyectos en éxito con nuestra experiencia y dedicación. Tu satisfacción es nuestro objetivo.</p>
+                <p><i class="fa fa-phone-alt text-primary mr-2"></i>+51 991633963</p>
+                <p><i class="fa fa-envelope text-primary mr-2"></i>zeamiguel58@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-4 px-sm-3 px-md-5">
+        <p class="m-0 text-center">
+            &copy; <a class="font-weight-semi-bold" href="#">nombre del sistio</a>. Todos los derechos reservados. Diseñado por Juan Andre Zea Apaza
+        </p>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

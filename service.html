@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Servicios Versátiles para el Hogar y Negocio-Servicios</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <link rel="icon" href="img/logo1.png" type="image/x-icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-bar p-0">
+        <div class="container-lg p-0">
+            <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/logo1.png" alt="Logo de Miguel Angel Mamani Zea" class="logo">
+
+                    <style>
+                        .logo {
+    width: 200px; /* Tamaño para PC */
+    position: absolute;
+    top: -25px;
+    left: 10px;
+    z-index: 1000; /* Ajusta este valor según sea necesario */
+}
+
+@media (max-width: 991px) {
+    .logo {
+        width: 120px; /* Tamaño para dispositivos móviles y tabletas */
+        top: -29px; /* Ajusta el margen superior para evitar superposición con la barra */
+        left: 20px; /* Cambiar el margen izquierdo si es necesario */
+    }
+}
+
+                    </style>         
+                           </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Inicio</a>
+                        <a href="about.html" class="nav-item nav-link">Nosotros</a>
+                        <a href="service.html" class="nav-item nav-link active">Servicios</a>
+                        <a href="contact.html" class="nav-item nav-link">Contacto</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid img-fluid" style="background-image: url('img/servicio.jpg'); background-size: cover; background-position: center; height: 50vh;">
+        <div class="d-flex flex-column align-items-center justify-content-center h-100">
+            <h1 class="display-4 text-white mb-3 mt-3 mt-lg-5">Servicios</h1>
+            <div class="d-inline-flex text-white">
+                <p class="m-0"><a class="text-white" href="">Inicio</a></p>
+                <p class="m-0 px-2">/</p>
+                <p class="m-0">Servicios</p>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Page Header Start -->
+
+    <!-- Services Start -->
+    <div class="container-fluid pt-5 pb-3">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-6 text-center mb-5">
+                    <small class="bg-primary text-white text-uppercase font-weight-bold px-1">Lo que hacemos</small>
+                    <h1 class="mt-2 mb-3">Innovación a Tu Alcance</h1>                    
+                    <h4 class="font-weight-normal text-muted mb-4">Ofrezco servicios y soluciones personalizadas que se adaptan a tus necesidades específicas. 
+                        Mi enfoque versátil y creativo garantiza resultados efectivos y satisfactorios para cada desafío.</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-5">
+                    <div class="d-flex">
+                        <i class="fas fa-3x fa-paint-roller text-primary mr-4"></i>
+                        <div class="d-flex flex-column">
+                            <h4 class="font-weight-bold mb-3">Pintado</h4>
+                            <p>La elección varía según el proyecto y objetivos. El contexto influye en resultados. Consideraciones individuales son clave.</p>
+                            <a class="font-weight-semi-bold" href="#" onclick="togglePopup('paintingPopup')">Leer mas <i class="fa fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="paintingPopup" class="popup">
+                    <div class="popup-content">
+                        <h4 class="font-weight-bold mb-3">Pintado de Inmuebles</h4>
+                        <ol>
+                            <li>
+                                <strong>Pintado de Interiores:</strong> Renueva espacios interiores mediante la aplicación de pintura en paredes y techos, mejorando la estética y creando ambientes agradables.
+                            </li>
+                            <li>
+                                <strong>Pintado de Exteriores:</strong> Protege y embellece fachadas y estructuras exteriores con pintura resistente a las condiciones climáticas, realzando la apariencia de los inmuebles.
+                            </li>
+                        </ol>
+                    </div>
+                    
+                </div>
+                
+                <style>
+                    .popup {
+                        display: none;
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0, 0, 0, 0.8);
+                    }
+                
+                    .popup-content {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        background-color: white;
+                        padding: 20px;
+                        width: 80%;
+                        max-width: 500px;
+                    }
+                </style>
+                
+                <script>
+                    function togglePopup(popupId) {
+                        const popup = document.getElementById(popupId);
+                        if (popup.style.display === "none") {
+                            popup.style.display = "block";
+                        } else {
+                            popup.style.display = "none";
+                        }
+                    }
+                
+                    window.addEventListener("click", function(event) {
+                        const popups = document.getElementsByClassName("popup");
+                        for (const popup of popups) {
+                            if (event.target === popup) {
+                                popup.style.display = "none";
+                            }
+                        }
+                    });
+                </script>
+                
+                <div class="col-md-4 mb-5">
+                    <div class="d-flex">
+                        <i class="fas fa-3x fa-plug text-primary mr-4"></i>
+                        <div class="d-flex flex-column">
+                            <h4 class="font-weight-bold mb-3">Electricidad</h4>
+                            <p>Nuestro servicio se enorgullece de ofrecer soluciones personalizadas para cada cliente. </p>
+                            <a class="font-weight-semi-bold" href="#" onclick="togglePopup('webDesignPopup')">Leer mas <i class="fa fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="webDesignPopup" class="popup">
+                    <div class="popup-content">
+                        <h4 class="font-weight-bold mb-3">Servicio de Electricidad</h4>
+                        <ol>
+                            <li>
+                                Diseño Personalizado: Ofrecemos soluciones eléctricas adaptadas a tus necesidades, desde planificación hasta implementación.
+                            </li>
+                            <li>
+                                Instalación Precisa: Nuestros técnicos experimentados manejan la instalación de cables, interruptores, enchufes y paneles de control, siguiendo estrictos estándares de seguridad.
+                            </li>
+                            <li>
+                                Cumplimiento Normativo: Garantizamos que cada instalación cumpla con las regulaciones eléctricas relevantes y códigos de seguridad.
+                            </li>
+                            <li>
+                                Mantenimiento Continuo: No solo instalamos, también ofrecemos mantenimiento y asistencia técnica a largo plazo para asegurar un rendimiento duradero.
+                            </li>
+                            <li>
+                                Eficiencia Energética: Enfocados en la sostenibilidad, promovemos soluciones que optimizan el uso de energía y reducen costos a largo plazo.
+                            </li>
+                        </ol>
+                    </div>
+                    
+                </div>
+                
+                <style>
+                    .popup {
+                        display: none;
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0, 0, 0, 0.8);
+                    }
+                
+                    .popup-content {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        background-color: white;
+                        padding: 20px;
+                        width: 80%;
+                        max-width: 500px;
+                    }
+                </style>
+                
+                <script>
+                    function togglePopup(popupId) {
+                        const popup = document.getElementById(popupId);
+                        if (popup.style.display === "none") {
+                            popup.style.display = "block";
+                        } else {
+                            popup.style.display = "none";
+                        }
+                    }
+                
+                    window.addEventListener("click", function(event) {
+                        const popups = document.getElementsByClassName("popup");
+                        for (const popup of popups) {
+                            if (event.target === popup) {
+                                popup.style.display = "none";
+                            }
+                        }
+                    });
+                </script>
+
+
+<div class="col-md-4 mb-5">
+    <div class="d-flex">
+        <i class="fas fa-3x fa-tools text-primary mr-4"></i>
+        <div class="d-flex flex-column">
+            <h4 class="font-weight-bold mb-3">Instalaciones</h4>
+            <p>Las instalaciones son esenciales para operar de manera segura y eficiente en diversos entornos. Van desde el hogar hasta industrias y ciudades. Ejemplos:</p>
+            <a class="font-weight-semi-bold" href="#" onclick="togglePopup('webDesignPopup2')">Read More <i class="fa fa-angle-double-right"></i></a>
+        </div>
+    </div>
+</div>
+
+<div id="webDesignPopup2" class="popup">
+    <div class="popup-content">
+        <h4 class="font-weight-bold mb-3">Instalaciones</h4>
+        <ol>
+            <li>
+                <strong>Tanque de Agua:</strong> Un tanque de agua es un recipiente diseñado para almacenar agua. En hogares y edificios, los tanques de agua se utilizan para asegurar un suministro constante de agua, especialmente en situaciones en las que la presión del agua es variable.
+            </li>
+            <li>
+                <strong>Luces de Araña:</strong> Las luces de araña son luminarias colgantes que tienen múltiples brazos decorativos que sostienen las bombillas. Son populares en ambientes más formales y suelen ubicarse en áreas como comedores o vestíbulos.
+            </li>
+            <li>
+                <strong>Focos:</strong> Los focos son dispositivos de iluminación empotrados o montados en la superficie que proyectan luz en una dirección específica. Vienen en una variedad de tipos y tamaños para adaptarse a diferentes necesidades de iluminación.
+            </li>
+            <li>
+                <strong>Alarmas:</strong> Las alarmas son sistemas de seguridad que emiten señales audibles o visuales cuando se detectan condiciones no deseadas o eventos peligrosos, como intrusiones, incendios o fugas de gas.
+            </li>
+            <li>
+                <strong>Tubería:</strong> Las tuberías son conductos utilizados para transportar líquidos o gases. Pueden ser de diferentes materiales y tamaños, y se utilizan en sistemas de suministro de agua, sistemas de calefacción, ventilación, aire acondicionado y más.
+            </li>
+        </ol>
+    </div>
+    
+</div>
+
+<style>
+    .popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .popup-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px;
+        width: 80%;
+        max-width: 500px;
+    }
+</style>
+
+<script>
+    function togglePopup(popupId) {
+        const popup = document.getElementById(popupId);
+        if (popup.style.display === "none") {
+            popup.style.display = "block";
+        } else {
+            popup.style.display = "none";
+        }
+    }
+
+    window.addEventListener("click", function(event) {
+        const popups = document.getElementsByClassName("popup");
+        for (const popup of popups) {
+            if (event.target === popup) {
+                popup.style.display = "none";
+            }
+        }
+    });
+</script>
+
+<div class="col-md-4 mb-5">
+    <div class="d-flex">
+        <i class="fas fa-3x fa-building text-primary mr-4"></i>
+        <div class="d-flex flex-column">
+            <h4 class="font-weight-bold mb-3">Drywall</h4>
+            <p>El drywall es un sistema de construcción que emplea paneles de yeso laminado para erigir paredes y techos interiores de forma eficiente y precisa.</p>
+            <a class="font-weight-semi-bold" href="#" onclick="togglePopup('webDesignPopup3')">Read More <i class="fa fa-angle-double-right"></i></a>
+        </div>
+    </div>
+</div>
+
+<div id="webDesignPopup3" class="popup">
+    <div class="popup-content">
+        <h4 class="font-weight-bold mb-3">Drywall</h4>
+        <ol>
+            <li>
+                La instalación de drywall es un servicio caracterizado por su rapidez y precisión. Consiste en fijar paneles de yeso a una estructura metálica o de madera, creando superficies uniformes listas para su finalización. Los paneles se pueden acabar con masilla y lijado para obtener una superficie lisa y sin imperfecciones.
+            </li>
+            <li>
+                La versatilidad del drywall es excepcional. Ofrece la posibilidad de crear divisiones interiores, optimizar espacios y establecer áreas según necesidades, como habitaciones y oficinas. Además, es idóneo para instalar sistemas de aislamiento térmico y acústico, mejorando la eficiencia energética y reduciendo la transmisión de ruidos.
+            </li>
+            <li>
+                Una ventaja destacada del drywall es su capacidad para adaptarse a diseños personalizados. Se puede cortar, moldear y perforar según requerimientos del proyecto, facilitando la incorporación de elementos como puertas, ventanas y tomas eléctricas.
+            </li>
+        </ol>
+    </div>
+    
+</div>
+
+<style>
+    .popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .popup-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px;
+        width: 80%;
+        max-width: 500px;
+    }
+</style>
+
+<script>
+    function togglePopup(popupId) {
+        const popup = document.getElementById(popupId);
+        if (popup.style.display === "none") {
+            popup.style.display = "block";
+        } else {
+            popup.style.display = "none";
+        }
+    }
+
+    window.addEventListener("click", function(event) {
+        const popups = document.getElementsByClassName("popup");
+        for (const popup of popups) {
+            if (event.target === popup) {
+                popup.style.display = "none";
+            }
+        }
+    });
+</script>
+
+<div class="col-md-4 mb-5">
+    <div class="d-flex">
+        <i class="fas fa-3x fa-bolt text-primary mr-4"></i>
+        <div class="d-flex flex-column">
+            <h4 class="font-weight-bold mb-3">Pozo a Tierra</h4>
+            <p>Ofrezco "Pozo a Tierra" para conectar equipos con la tierra, evitando descargas eléctricas y protegiendo a personas y dispositivos.</p>
+            <a class="font-weight-semi-bold" href="#" onclick="togglePopup('webDesignPopup4')">Read More <i class="fa fa-angle-double-right"></i></a>
+        </div>
+    </div>
+</div>
+
+<div id="webDesignPopup4" class="popup">
+    <div class="popup-content">
+        <h4 class="font-weight-bold mb-3">Servicio de Pozo a Tierra</h4>
+        <ol>
+            <li>
+                Conexión Segura: Nuestro servicio de "Pozo a Tierra" establece una conexión segura entre equipos y la tierra. Esto evita acumulaciones de corriente eléctrica y minimiza el riesgo de descargas eléctricas.
+            </li>
+            <li>
+                Prevención de Riesgos: Al crear una vía de disipación para corrientes no deseadas, prevenimos situaciones peligrosas que podrían afectar a personas y equipos, asegurando un entorno de trabajo más seguro.
+            </li>
+            <li>
+                Cumplimiento Normativo: Nuestros expertos se aseguran de que la instalación cumpla con las regulaciones y normativas vigentes. Esto garantiza que su negocio o hogar cumpla con los estándares de seguridad eléctrica establecidos.
+            </li>
+            <li>
+                Protección de Equipos: La conexión a tierra no solo protege a las personas, sino también a equipos y dispositivos sensibles. Evita daños causados por fluctuaciones de corriente y descargas electrostáticas.
+            </li>
+            <li>
+                Servicio Profesional: Nuestro equipo altamente capacitado lleva a cabo la instalación de manera eficiente y precisa. Nos aseguramos de que cada componente esté correctamente conectado y probado para garantizar su funcionamiento óptimo.
+            </li>
+        </ol>
+    </div>
+    
+</div>
+
+<style>
+    .popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .popup-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px;
+        width: 80%;
+        max-width: 500px;
+    }
+</style>
+
+<script>
+    function togglePopup(popupId) {
+        const popup = document.getElementById(popupId);
+        if (popup.style.display === "none") {
+            popup.style.display = "block";
+        } else {
+            popup.style.display = "none";
+        }
+    }
+
+    window.addEventListener("click", function(event) {
+        const popups = document.getElementsByClassName("popup");
+        for (const popup of popups) {
+            if (event.target === popup) {
+                popup.style.display = "none";
+            }
+        }
+    });
+</script>
+
+
+<div class="col-md-4 mb-5">
+    <div class="d-flex">
+        <i class="fas fa-3x fa-lightbulb text-primary mr-4"></i>
+        <div class="d-flex flex-column">
+            <h4 class="font-weight-bold mb-3">Iluminacion</h4>
+            <p>Ofrezco soluciones de iluminación personalizadas para crear ambientes atractivos y funcionales en espacios interiores y exteriores.</p>
+            <a class="font-weight-semi-bold" href="#" onclick="togglePopup('webDesignPopup6')">Read More <i class="fa fa-angle-double-right"></i></a>
+        </div>
+    </div>
+</div>
+
+<div id="webDesignPopup6" class="popup">
+    <div class="popup-content">
+        <h4 class="font-weight-bold mb-3">Servicio de Iluminación</h4>
+        <ol>
+            <li>
+                Personalización Eficiente: Nuestro servicio de iluminación se adapta a las necesidades específicas de cada cliente, brindando soluciones a medida para lograr el ambiente deseado.
+            </li>
+            <li>
+                Diseño Innovador: Utilizamos tecnologías y diseños vanguardistas para optimizar la iluminación en interiores y exteriores, mejorando la estética y la funcionalidad de los espacios.
+            </li>
+            <li>
+                Ambientes Atractivos: Creamos atmósferas atractivas y acogedoras mediante la combinación estratégica de luces, resaltando características y realzando la experiencia visual.
+            </li>
+            <li>
+                Eficiencia Energética: Priorizamos soluciones energéticamente eficientes, como iluminación LED, para reducir el consumo y los costos a la vez que contribuimos al cuidado del medio ambiente.
+            </li>
+            <li>
+                Instalación Profesional: Nuestro equipo altamente capacitado se encarga de la instalación precisa y segura de sistemas de iluminación, garantizando un funcionamiento óptimo.
+            </li>
+        </ol>
+    </div>
+    
+</div>
+
+<style>
+    .popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .popup-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px;
+        width: 80%;
+        max-width: 500px;
+    }
+</style>
+
+<script>
+    function togglePopup(popupId) {
+        const popup = document.getElementById(popupId);
+        if (popup.style.display === "none") {
+            popup.style.display = "block";
+        } else {
+            popup.style.display = "none";
+        }
+    }
+
+    window.addEventListener("click", function(event) {
+        const popups = document.getElementsByClassName("popup");
+        for (const popup of popups) {
+            if (event.target === popup) {
+                popup.style.display = "none";
+            }
+        }
+    });
+</script>
+
+<div class="col-md-4 mb-5">
+    <div class="d-flex">
+        <i class="fas fa-3x fa-tint text-primary mr-4"></i>
+        <div class="d-flex flex-column">
+            <h4 class="font-weight-bold mb-3">Sistema de agua y alarma </h4>
+            <p>Brindo soluciones completas de agua y alarmas para hogares y negocios, garantizando suministro eficiente y seguridad avanzada.</p>
+            <a class="font-weight-semi-bold" href="#" onclick="togglePopup('webDesignPopup7')">Read More <i class="fa fa-angle-double-right"></i></a>
+        </div>
+    </div>
+</div>
+
+<div id="webDesignPopup7" class="popup">
+    <div class="popup-content">
+        <h4 class="font-weight-bold mb-3">Servicio de Sistemas de Agua y Alarmas</h4>
+        <ol>
+            <li>
+                Suministro Eficiente de Agua: Proporciono soluciones de agua personalizadas para hogares y negocios, asegurando un flujo constante y eficiente.
+            </li>
+            <li>
+                Seguridad Avanzada: Ofrezco sistemas de alarma a medida que protegen propiedades con detección temprana de intrusos y alertas de emergencia.
+            </li>
+            <li>
+                Integración Completa: Mi enfoque abarca tanto sistemas de agua como alarmas, brindando una solución integral para una vida segura y cómoda.
+            </li>
+            <li>
+                Instalación Profesional: Mi equipo altamente capacitado se encarga de la instalación precisa y segura, asegurando un rendimiento óptimo.
+            </li>
+            <li>
+                Soporte Continuo: No solo proporciono instalaciones, sino también mantenimiento y asistencia técnica a lo largo del tiempo para garantizar la satisfacción del cliente.
+            </li>
+        </ol>
+    </div>
+    
+</div>
+
+<style>
+    .popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .popup-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px;
+        width: 80%;
+        max-width: 500px;
+    }
+</style>
+
+<script>
+    function togglePopup(popupId) {
+        const popup = document.getElementById(popupId);
+        if (popup.style.display === "none") {
+            popup.style.display = "block";
+        } else {
+            popup.style.display = "none";
+        }
+    }
+
+    window.addEventListener("click", function(event) {
+        const popups = document.getElementsByClassName("popup");
+        for (const popup of popups) {
+            if (event.target === popup) {
+                popup.style.display = "none";
+            }
+        }
+    });
+</script>
+
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+    
+
+     <!-- Footer Start -->
+     <div class="container-fluid bg-secondary text-white mt-5 pt-5 px-sm-3 px-md-5">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="m-0 mt-n2 text-white display-4"><span class="text-primary">M</span><span class="text-primary">G</h1>
+                    </a>
+                <p>Impulsando tus ideas con creatividad y compromiso. Tu visión es nuestra misión.</p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="font-weight-bold text-primary mb-4">Enlaces Rápidos</h5>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Inicio</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Nosotros</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Servicios</a>
+                    <a class="text-white" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Contacto</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="font-weight-bold text-primary mb-4">Enlaces Populares</h5>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Home</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>About Us</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Services</a>
+                    <a class="text-white" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Contact Us</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="font-weight-bold text-primary mb-4">Contáctanos</h5>
+                <p>Convierte tus proyectos en éxito con nuestra experiencia y dedicación. Tu satisfacción es nuestro objetivo.</p>
+                <p><i class="fa fa-phone-alt text-primary mr-2"></i>+51 991633963</p>
+                <p><i class="fa fa-envelope text-primary mr-2"></i>zeamiguel58@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-4 px-sm-3 px-md-5">
+        <p class="m-0 text-center">
+            &copy; <a class="font-weight-semi-bold" href="#">nombre del sistio</a>. Todos los derechos reservados. Diseñado por Juan Andre Zea Apaza
+        </p>
+    </div>
+    <!-- Footer End -->
+
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

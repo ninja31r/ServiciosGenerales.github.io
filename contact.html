@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Servicios Versátiles para el Hogar y Negocio-Contacto</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <link rel="icon" href="img/logo1.png" type="image/x-icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-bar p-0">
+        <div class="container-lg p-0">
+            <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/logo1.png" alt="Logo de Miguel Angel Mamani Zea" class="logo">
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Inicio</a>
+                        <a href="about.html" class="nav-item nav-link">Nosotros</a>
+                        <a href="service.html" class="nav-item nav-link">Servicios</a>
+                        <a href="contact.html" class="nav-item nav-link active">Contacto</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    
+    <style>
+        .logo {
+width: 200px; /* Tamaño para PC */
+position: absolute;
+top: -25px;
+left: 10px;
+z-index: 1000; /* Ajusta este valor según sea necesario */
+}
+
+@media (max-width: 991px) {
+.logo {
+width: 120px; /* Tamaño para dispositivos móviles y tabletas */
+top: -29px; /* Ajusta el margen superior para evitar superposición con la barra */
+left: 20px; /* Cambiar el margen izquierdo si es necesario */
+}
+}
+
+    </style>
+    
+    <script>
+        $(document).ready(function() {
+            $(".navbar-toggler").on("click", function() {
+                $(".navbar-brand .logo").toggleClass("logo-hidden");
+            });
+        });
+    </script>
+    
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid img-fluid" style="background-image: url('img/contacto.jpg'); background-size: cover; background-position: center; height: 50vh;">
+        <div class="d-flex flex-column align-items-center justify-content-center h-100">
+            <h1 class="display-4 text-white mb-3 mt-3 mt-lg-5">Contacto</h1>
+            <div class="d-inline-flex text-white">
+                <p class="m-0"><a class="text-white" href="">Inicio</a></p>
+                <p class="m-0 px-2">/</p>
+                <p class="m-0">Contactanos</p>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Page Header Start -->
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center">
+                <small class="bg-primary text-white text-uppercase font-weight-bold text-center px-1">Contáctanos</small>
+                <h1 class="mt-2 mb-5">Contáctanos para cualquier consulta</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="d-flex align-items-center border mb-3 p-4">
+                        <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
+                        <div class="d-flex flex-column">
+                            <h5 class="font-weight-bold">Nuestra Ubicacion</h5>
+                            <p class="m-0">Andres Razuri #119, Arequipa, Peru</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center border mb-3 p-4">
+                        <i class="fa fa-2x fa-envelope-open text-primary mr-3"></i>
+                        <div class="d-flex flex-column">
+                            <h5 class="font-weight-bold">Correo</h5>
+                            <p class="m-0">zeamiguel58@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center border mb-3 mb-md-0 p-4">
+                        <i class="fas fa-2x fa-phone-alt text-primary mr-3"></i>
+                        <div class="d-flex flex-column">
+                            <h5 class="font-weight-bold">Numero</h5>
+                            <p class="m-0">+51 991633963</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+    <!-- Enlace a la biblioteca de EmailJS -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <!-- Otros elementos en el head -->
+  </head>
+  <body>
+    <!-- Contenido de tu página -->
+    <form id="form" style="width: 300px; margin: 0 auto;">
+        <div class="field" style="margin-bottom: 10px;">
+          <label for="emailjs_name" style="font-size: large;">Nombre y Apellido:</label><br>
+          <input type="text" name="emailjs_name" id="emailjs_name" style="width: 100%;">
+        </div>
+        <div class="field" style="margin-bottom: 10px;">
+          <label for="emailjs_email" style="font-size: large;">Correo Electrónico:</label><br>
+          <input type="text" name="emailjs_email" id="emailjs_email" style="width: 100%;">
+        </div>
+        <div class="field" style="margin-bottom: 10px;">
+          <label for="emailjs_phone" style="font-size: large;">Número de Teléfono:</label><br>
+          <input type="text" name="emailjs_phone" id="emailjs_phone" style="width: 100%;">
+        </div>
+        <div class="field" style="margin-bottom: 10px;">
+          <label for="emailjs_asunto" style="font-size: large;">Asunto:</label><br>
+          <select id="emailjs_asunto" name="emailjs_asunto" style="width: 100%;">
+            <option value="Cursos">Cotizacion</option>
+            <option value="Servicios">Servicios</option>
+          </select>
+        </div>
+        <div class="field" style="margin-bottom: 10px;">
+          <label for="emailjs_message" style="font-size: large;">Mensaje:</label><br>
+          <textarea name="emailjs_message" id="emailjs_message" style="width: 100%; height: 150px;"></textarea>
+        </div>
+        
+        <div class="field" style="text-align: center;">
+          <input type="submit" id="button" value="Enviar" style="height: 50px; width: 100%; background-color: orange; color: white;">
+        </div>
+      </form>
+      
+     
+      
+      
+      
+  
+    <!-- Script que utiliza la biblioteca de EmailJS -->
+    <script>
+        // Inicializar EmailJS
+        emailjs.init('OVeoIm0ePDf3yPvAu');
+      
+        document.getElementById('form').addEventListener('submit', function(event) {
+          event.preventDefault();
+      
+          var btn = document.getElementById('button');
+          btn.value = 'Enviando...';
+      
+          const serviceID = 'service_ojlq5iv';
+          const templateID = 'template_8xcntlc';
+      
+          var subjectSelect = document.getElementById('emailjs_asunto');
+          var selectedOption = subjectSelect.options[subjectSelect.selectedIndex].text;
+      
+          // Obtener los valores de los campos del formulario
+          var name = document.getElementById('emailjs_name').value;
+          var email = document.getElementById('emailjs_email').value;
+          var phone = document.getElementById('emailjs_phone').value; // Corregido aquí
+          var asunto = selectedOption;
+          var message = document.getElementById('emailjs_message').value;
+      
+          // Preparar los parámetros para enviar el correo
+          var templateParams = {
+            emailjs_name: name,
+            emailjs_email: email,
+            emailjs_phone: phone, // Corregido aquí
+            emailjs_asunto: asunto,
+            emailjs_message: message
+          };
+      
+          // Enviar el formulario usando EmailJS
+          emailjs.send(serviceID, templateID, templateParams)
+            .then(() => {
+              btn.value = 'Enviar correo';
+              alert('¡Correo enviado! Asunto: ' + asunto);
+            }, (err) => {
+              btn.value = 'Enviar correo';
+              alert(JSON.stringify(err));
+            });
+        });
+      </script>
+      
+</div>
+
+                
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+       <!-- Footer Start -->
+  <div class="container-fluid bg-secondary text-white mt-5 pt-5 px-sm-3 px-md-5">
+    <div class="row pt-5">
+        <div class="col-lg-3 col-md-6 mb-5">
+            <a href="index.html" class="navbar-brand">
+                <h1 class="m-0 mt-n2 text-white display-4"><span class="text-primary">M</span><span class="text-primary">G</h1>
+                </a>
+            <p>Impulsando tus ideas con creatividad y compromiso. Tu visión es nuestra misión.</p>
+            <div class="d-flex justify-content-start mt-4">
+                <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h5 class="font-weight-bold text-primary mb-4">Enlaces Rápidos</h5>
+            <div class="d-flex flex-column justify-content-start">
+                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Inicio</a>
+                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Nosotros</a>
+                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Servicios</a>
+                <a class="text-white" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Contacto</a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h5 class="font-weight-bold text-primary mb-4">Enlaces Populares</h5>
+            <div class="d-flex flex-column justify-content-start">
+                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Home</a>
+                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>About Us</a>
+                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Services</a>
+                <a class="text-white" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Contact Us</a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h5 class="font-weight-bold text-primary mb-4">Contáctanos</h5>
+            <p>Convierte tus proyectos en éxito con nuestra experiencia y dedicación. Tu satisfacción es nuestro objetivo.</p>
+            <p><i class="fa fa-phone-alt text-primary mr-2"></i>+51 991633963</p>
+            <p><i class="fa fa-envelope text-primary mr-2"></i>zeamiguel58@gmail.com</p>
+        </div>
+    </div>
+</div>
+<div class="container-fluid py-4 px-sm-3 px-md-5">
+    <p class="m-0 text-center">
+        &copy; <a class="font-weight-semi-bold" href="#">nombre del sistio</a>. Todos los derechos reservados. Diseñado por Juan Andre Zea Apaza
+    </p>
+</div>
+<!-- Footer End -->
+    <script>
+    const btn = document.getElementById('sendMessageButton');
+
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  btn.innerHTML = 'Enviando...';
+
+  const serviceID = 'your_service_id'; // Reemplaza con el ID de tu servicio en EmailJS
+  const templateID = 'your_template_id'; // Reemplaza con el ID de tu plantilla en EmailJS
+
+  emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.innerHTML = 'Enviar';
+      alert('¡Mensaje enviado correctamente!');
+      // Aquí puedes realizar cualquier acción adicional después del envío exitoso.
+    })
+    .catch(error => {
+      btn.innerHTML = 'Enviar';
+      alert('Error al enviar el mensaje: ' + error);
+    });
+});
+
+
+    </script>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
